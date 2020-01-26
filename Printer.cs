@@ -27,7 +27,7 @@ namespace Lab8
             }
             if (_inkCount < 0)
             {
-                OutOfInkEvent?.Invoke(this, EventArgs.Empty);
+                OutOfInkEvent?.Invoke(this,new OutOfInkEventArgs());
                 return;
                
             }

@@ -2,7 +2,7 @@
 {
     public class OutOfInkEventArgs
     {
-        public string Colour 
+        public string Colour;
 
     }
 }
